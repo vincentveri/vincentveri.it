@@ -17,7 +17,7 @@ export default function Home() {
           <Avatar />
         </div>
         
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-4xl font-bold text-center">
           Web Developer and Photographer
         </h1>
 
