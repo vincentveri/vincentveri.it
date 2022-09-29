@@ -2,18 +2,19 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Avatar from '../components/avatar'
+import { FaGithub, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="max-w-md mx-auto">
       <Head>
         <title>Vincent Veri</title>
         <meta name="description" content="Web developer and Photographer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <div class="mb-5">
+      <main className="min-h-screen py-24 md:py-48 lg:py-64">
+        <div class="mb-5 text-center">
           <Avatar />
         </div>
         
@@ -21,19 +22,22 @@ export default function Home() {
           Web Developer and Photographer
         </h1>
 
-        <p className={styles.description}>
-          I love coding in Python and JavaScript. As a second job I take sport photos.
+        <p className="my-8 text-center">
+          I love coding in Python and JavaScript. I also take sport photos as a second job.
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://instagram.com/vincentveri" target="_blank" rel="noreferrer" className={styles.card}>
-            <h2>Instagram &rarr;</h2>
-          </a>
-
-          <a href="https://github.com/vincentveri" target="_blank" rel="noreferrer" className={styles.card}>
-            <h2>GitHub &rarr;</h2>
+      <div className="flex flex-row">
+        <div className="basis-1/2 text-center">
+          <a href="https://instagram.com/vincentveri" target="_blank" rel="noreferrer" className="inline-block">
+            <FaInstagram size="32px" />
           </a>
         </div>
+        <div className="basis-1/2 text-center">
+          <a href="https://github.com/vincentveri" target="_blank" rel="noreferrer" className="inline-block">
+            <FaGithub size="32px" />
+          </a>
+        </div>
+      </div>
       </main>
 
       <footer className={styles.footer}>
@@ -42,10 +46,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          copyright &copy; 2022
         </a>
       </footer>
     </div>
