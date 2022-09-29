@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main className="min-h-screen py-24 md:py-48 lg:py-64">
-        <div class="mb-5 text-center">
+        <div className="mb-5 text-center">
           <Avatar />
         </div>
         
