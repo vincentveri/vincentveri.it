@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/future/image';
 
-import Container from 'components/Container';
+import Container from '../components/Container';
 import avatar from 'public/vincentveri.jpg';
 import avatarColor from 'public/vincentveri-color.jpg';
 
@@ -28,6 +28,12 @@ export default function About() {
             <a href="https://pixelfabrica.it/">Pixelfabrica</a>, where I love to develop websites
             and web apps. I&apos;m a JavaScript enthusiastic and I&apos;m currently learning Next.js.
           </p>
+          <p>
+            I&apos;m always building something on the side. When the pandemic started, I found myself wanting to learn Python language.
+          </p>
+          <p>As a second job I take sports and portrait photos. I really love interacting with people.
+             I&apos;m currently working on a shopping platform based on PrestaShop, where people can buy my photos.
+             </p>
           <h2>Headshots</h2>
           <div className="flex space-x-8">
             <a href="/vincentveri.jpg">
