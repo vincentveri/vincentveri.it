@@ -1,6 +1,5 @@
-import { FaGithub, FaInstagram } from "react-icons/fa";
-import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Container from '../components/Container';
 
 export default function Home() {
@@ -16,9 +15,9 @@ export default function Home() {
                 Senior Web Developer at{' '}
                 <span className="font-semibold">Pixelfabrica</span>
               </h2>
-              <p className="text-gray-600 dark:text-gray-400 mb-16">
+              <p className="text-gray-600 dark:text-gray-400 mb-16 prose">
                 I&apos;m a passionate italian web developer. I use Python and JavaScript for my projects.
-                I also take sport and portrait photos. My little dog is called Astro.
+                I also take sport and portrait photos. My little dog is called <Link href="/astro">Astro</Link>.
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
