@@ -55,6 +55,10 @@ export default function About() {
               />
             </a>
           </div>
+          <h2>This site</h2>
+          <p>
+            This site is created using <a href="https://nextjs.org/" target="_blank" rel="noreferrer">Next.js</a> and the layout is based on the <a href="https://leerob.io/" target="_blank" rel="noreferrer">Lee Robinson&apos; blog.</a>
+          </p>
         </div>
       </div>
     </Container>
