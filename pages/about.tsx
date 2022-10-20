@@ -30,7 +30,7 @@ export default function About() {
             and web apps. I&apos;m a JavaScript enthusiastic and I&apos;m currently learning Next.js.
           </p>
           <p>
-            I'm reading <em>"Cracking the coding interview"</em> to master some important topics about algorithms,
+            I&apos;m reading <em>&quot;Cracking the coding interview&quot;</em> to master some important topics about algorithms,
             Big O notation, data structures and more.
           </p>
           <Image
