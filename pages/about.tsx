@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/future/image';
 
-import Container from 'components/Container';
+import Container from '../components/Container';
 import avatar from 'public/vincentveri.jpg';
 import avatarColor from 'public/vincentveri-color.jpg';
 import currentBook from 'public/pages/photo_2022-10-20_22-39-16.jpg';
@@ -33,6 +33,19 @@ export default function About() {
             I'm reading <em>"Cracking the coding interview"</em> to master some important topics about algorithms,
             Big O notation, data structures and more.
           </p>
+          <Image
+                alt="Vincent Veri selfie"
+                width={400}
+                quality={100}
+                src={currentBook}
+                className="rounded-md"
+              />
+          <p>
+            I&apos;m always building something on the side. When the pandemic started, I found myself wanting to learn Python language.
+          </p>
+          <p>As a second job I take sports and portrait photos. I really love interacting with people.
+             I&apos;m currently working on a shopping platform based on PrestaShop, where people can buy my photos.
+             </p>
           <h2>Headshots</h2>
           <div className="flex space-x-8">
             <a href="/vincentveri.jpg">
@@ -54,6 +67,10 @@ export default function About() {
               />
             </a>
           </div>
+          <h2>This site</h2>
+          <p>
+            This site is created using <a href="https://nextjs.org/" target="_blank" rel="noreferrer">Next.js</a> and the layout is based on the <a href="https://leerob.io/" target="_blank" rel="noreferrer">Lee Robinson&apos; blog.</a>
+          </p>
         </div>
       </div>
     </Container>
