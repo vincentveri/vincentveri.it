@@ -4,6 +4,7 @@ import Image from 'next/future/image';
 import Container from 'components/Container';
 import avatar from 'public/vincentveri.jpg';
 import avatarColor from 'public/vincentveri-color.jpg';
+import currentBook from 'public/pages/photo_2022-10-20_22-39-16.jpg';
 
 export default function About() {
   return (
@@ -27,6 +28,10 @@ export default function About() {
             Hey, I&apos;m Vincent. I&apos;m a Python web developer at{' '}
             <a href="https://pixelfabrica.it/">Pixelfabrica</a>, where I love to develop websites
             and web apps. I&apos;m a JavaScript enthusiastic and I&apos;m currently learning Next.js.
+          </p>
+          <p>
+            I'm reading <em>"Cracking the coding interview"</em> to master some important topics about algorithms,
+            Big O notation, data structures and more.
           </p>
           <h2>Headshots</h2>
           <div className="flex space-x-8">
