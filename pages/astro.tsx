@@ -14,7 +14,7 @@ export default function Astro() {
           This is Astro
         </h1>
         <div className="mb-8 prose dark:prose-dark leading-6">
-          <p>Astro is my sweet and little dog. He makes me happy every single day of my life.</p>
+          <p>Astro is my sweet and little dog. He makes me happy every single day of my life since April 2020.</p>
           <h2>Pics</h2>
           <div className="flex space-x-8">
             <a href="/static/images/astro/my-little-dog.jpg">
