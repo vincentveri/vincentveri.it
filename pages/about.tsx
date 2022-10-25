@@ -20,8 +20,12 @@ export default function About() {
           <h3>Long, 3rd Person</h3>
           <p>
             Vincent Veri is the Senior Web Developer at{' '}
-            <a href="http://pixelfabrica.it/">Pixelfabrica</a>, where he develops and
-            builds websites and web applications. He is a portrait and sport photographer.
+            <a href="http://pixelfabrica.it/">Pixelfabrica</a>, where he develops 
+             websites and web applications. He is a portrait and sport photographer.
+          </p>
+          <p>
+            He loves embracing new technologies, that's why he changed his blog from Jekyll to Next.js. 
+            He spends a lot of time reading programming, business and art books. He cannot live without spending time at the gym.
           </p>
           <h3>Long, 1st Person</h3>
           <p>
