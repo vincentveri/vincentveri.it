@@ -24,7 +24,7 @@ export default function About() {
              websites and web applications. He is a portrait and sport photographer.
           </p>
           <p>
-            He loves embracing new technologies, that's why he changed his blog from Jekyll to Next.js. 
+            He loves embracing new technologies, that&apos;s why he changed his blog from Jekyll to Next.js. 
             He spends a lot of time reading programming, business and art books. He cannot live without spending time at the gym.
           </p>
           <h3>Long, 1st Person</h3>
