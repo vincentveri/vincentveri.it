@@ -44,7 +44,7 @@ export default function About() {
                 src={currentBook}
                 className="rounded-md"
               />
-          <p>Another interesting book is Aditya Y. Bhargava&apos;s <em>"Algoritmi spiegati in modo facile"</em>, that also explains sorting algorithms,
+          <p>Another interesting book is Aditya Y. Bhargava&apos;s <em>&quot;Algoritmi spiegati in modo facile&quot;</em>, that also explains sorting algorithms,
             recursion, hash tables with simple drawings and various examples.
           </p>
           <p>
