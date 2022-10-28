@@ -1,12 +1,11 @@
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
   previewFeatures = ["referentialIntegrity"]
 }
 
 datasource db {
   provider = "mysql"
-  url = env("DATABASE_URL")
-  referentialIntegrity = "prisma"
+  url      = env("DATABASE_URL")
 }
 
 model Post {
@@ -19,7 +18,7 @@ model Post {
   author    User     @relation(fields: [authorId], references: [id])
   authorId  Int
 
-  @@index(authorId)
+  @@index([authorId])
 }
 
 model Profile {
@@ -28,7 +27,7 @@ model Profile {
   user   User    @relation(fields: [userId], references: [id])
   userId Int     @unique
 
-  @@index(userId)
+  @@index([userId])
 }
 
 model User {
