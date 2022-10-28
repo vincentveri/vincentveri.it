@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/future/image';
 
 import Container from '../components/Container';
+import PageTitle from '../components/PageTitle';
 import avatar from 'public/vincentveri.jpg';
 import avatarColor from 'public/vincentveri-color.jpg';
 import currentBook from 'public/pages/photo_2022-10-20_22-39-16.jpg';
@@ -10,9 +11,7 @@ export default function About() {
   return (
     <Container title="About – Vincent Veri">
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-          About Me
-        </h1>
+        <PageTitle title="About me" />
         <div className="mb-8 prose dark:prose-dark leading-6">
           <h2>Bio</h2>
           <h3>Job Title</h3>
