@@ -21,7 +21,7 @@ export default function Home() {
                   I also take sport and portrait photos.
                 </p>
                 <p>
-                  I'm a proud owner of a little dog called <Link href="/astro">Astro</Link>.
+                  I&apos;m a proud owner of a little dog called <Link href="/astro">Astro</Link>.
                 </p>
               </div>
             </div>
