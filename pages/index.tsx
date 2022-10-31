@@ -11,7 +11,7 @@ export default function Home() {
               <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
                 Vincent Veri
               </h1>
-              <h2 className="text-gray-700 dark:text-gray-200 mb-4">
+              <h2 className="text-gray-700 dark:text-gray-200 mb-0">
                 Senior Web Developer at{' '}
                 <span className="font-semibold">Pixelfabrica</span>
               </h2>
