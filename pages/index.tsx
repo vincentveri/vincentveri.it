@@ -15,10 +15,15 @@ export default function Home() {
                 Senior Web Developer at{' '}
                 <span className="font-semibold">Pixelfabrica</span>
               </h2>
-              <p className="text-gray-600 dark:text-gray-400 mb-16 prose">
-                I&apos;m a passionate italian web developer. I use Python and JavaScript for my projects.
-                I also take sport and portrait photos. My little dog is called <Link href="/astro">Astro</Link>.
-              </p>
+              <div className="text-gray-600 dark:text-gray-400 mb-16 prose">
+                <p>
+                  I&apos;m a passionate italian web developer. I use Python, JavaScript and PHP for my projects.
+                  I also take sport and portrait photos.
+                </p>
+                <p>
+                  I'm a proud owner of a little dog called <Link href="/astro">Astro</Link>.
+                </p>
+              </div>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
               <Image
