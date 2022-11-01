@@ -77,6 +77,21 @@ export default function About() {
           <p>
             This site is created using <a href="https://nextjs.org/" target="_blank" rel="noreferrer">Next.js</a> and the layout is based on the <a href="https://leerob.io/" target="_blank" rel="noreferrer">Lee Robinson&apos; blog.</a>
           </p>
+          <h2>Cities I visited</h2>
+          <ul>
+            <li>Rome</li>
+            <li>Berlin</li>
+            <li>Paris</li>
+            <li>Budapest</li>
+            <li>London</li>
+            <li>Manila</li>
+            <li>Florence</li>
+            <li>Milan</li>
+            <li>Bologna</li>
+            <li>Turin</li>
+            <li>Amsterdam</li>
+            <li>Bruxelles</li>
+          </ul>
         </div>
       </div>
     </Container>
