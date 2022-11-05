@@ -75,8 +75,9 @@ export default function About() {
           </div>
           <h2>This site</h2>
           <p>
-            This site is created using <a href="https://nextjs.org/" target="_blank" rel="noreferrer">Next.js</a> and the layout is based on the <a href="https://leerob.io/" target="_blank" rel="noreferrer">Lee Robinson&apos; blog.</a>
+            This site is created using <a href="https://nextjs.org/" target="_blank" rel="noreferrer">Next.js</a> and the layout is based on the <a href="https://leerob.io/" target="_blank" rel="noreferrer">Lee Robinson&apos; blog</a>.
           </p>
+          <p>The CSS framework I used is Tailwind CSS.</p>
           <h2>Cities I visited</h2>
           <ul>
             <li>Rome</li>
