@@ -97,9 +97,9 @@ export default function Footer() {
           </nav>
 
           <p className="mx-auto max-w-lg text-xs text-gray-500">
-            I&apos;m an Italian Web Developer. I use Python, JavaScript and PHP for my projects.<br />I&apos;m also a portrait photographer.
+            I&apos;m an Italian Web Developer. I use Python, JavaScript and PHP for my projects.<br />I&apos;m also a portrait and sport photographer.
 
-            <span className="mt-4 block"> &copy; 2022 Vincent Veri </span>
+            <span className="mt-4 block"> &copy; 2023 Vincent Veri </span>
           </p>
         </div>
       </div>
