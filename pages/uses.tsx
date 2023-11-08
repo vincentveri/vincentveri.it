@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/future/image';
 
-import Container from 'components/Container';
+import Container from '../components/Container';
+import PageTitle from '../components/PageTitle';
 import avatar from 'public/vincentveri.jpg';
 import avatarColor from 'public/vincentveri-color.jpg';
 
@@ -9,9 +10,7 @@ export default function Setup() {
   return (
     <Container title="My gear – Vincent Veri">
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-          My gear
-        </h1>
+        <PageTitle title="My gear" />
         <div className="mb-8 prose dark:prose-dark leading-6">
           <h3>Coding</h3>
           <ul>

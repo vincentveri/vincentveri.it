@@ -11,14 +11,19 @@ export default function Home() {
               <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
                 Vincent Veri
               </h1>
-              <h2 className="text-gray-700 dark:text-gray-200 mb-4">
+              <h2 className="text-gray-700 dark:text-gray-200 mb-0">
                 Senior Web Developer at{' '}
                 <span className="font-semibold">Pixelfabrica</span>
               </h2>
-              <p className="text-gray-600 dark:text-gray-400 mb-16 prose">
-                I&apos;m a passionate italian web developer. I use Python and JavaScript for my projects.
-                I also take sport and portrait photos. My little dog is called <Link href="/astro">Astro</Link>.
-              </p>
+              <div className="text-gray-600 dark:text-gray-400 mb-16 prose">
+                <p>
+                  I&apos;m a passionate italian web developer. I use Python, JavaScript and PHP for my projects.
+                  I also take sport and portrait photos.
+                </p>
+                <p>
+                  I&apos;m a proud owner of a little dog called <Link href="/astro">Astro</Link>.
+                </p>
+              </div>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
               <Image
