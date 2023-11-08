@@ -40,7 +40,7 @@ export default function Container(props) {
   const meta = {
     title: 'Vincent Veri – Developer, photographer, creator.',
     description: `Web developer, Pythonista, JavaScript enthusiast, and photographer.`,
-    image: 'https://vincentveri.it/static/images/vincent-banner.png',
+    image: 'https://vincentveri.com/static/images/vincent-banner.png',
     type: 'website',
     ...customMeta
   };
@@ -51,8 +51,8 @@ export default function Container(props) {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://vincentveri.it${router.asPath}`} />
-        <link rel="canonical" href={`https://vincentveri.it${router.asPath}`} />
+        <meta property="og:url" content={`https://vincentveri.com${router.asPath}`} />
+        <link rel="canonical" href={`https://vincentveri.com${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Vincent Veri" />
         <meta property="og:description" content={meta.description} />
