@@ -8,6 +8,8 @@ summary = ''
 
 Classe '89, ogni anno guadagno XP. Adoro sperimentare nuove tecnologie, creare e produrre contenuti. Sviluppo applicazioni in Python e Javascript, dopo anni di PHP. Cresciuto sui forum, negli ultimi anni ho vissuto il Web solo da fruitore; ho quindi deciso di portare il mio contributo in questo mondo sconfinato.
 
+![Me on a display](vincent-on-display.jpeg)
+
 Sono il presidente dell'ASD Dragonfly Lecce [(Vai al sito)](https://dragonflylecce.it/) dal gennaio 2024, dove io e la mia compagna di vita Piera dedichiamo gran parte del nostro tempo per la crescita e formazione sportiva di bambine e ragazze interessate alla Ginnastica Ritmica.
 
 Pratico attività fisica unendo esercizi di pesistica olimpica, kettlebell e corpo libero. Lo sport e il movimento sono parti fondamentali della mia vita, passata gran parte del tempo seduto davanti a un monitor.
