@@ -1,8 +1,8 @@
 +++
 date = '2026-10-24T17:43:59+02:00'
 draft = false
-title = 'Refactor Sito Web'
-summary = 'Perché ho abbandonato Next.js in favore di Hugo'
+title = 'Nuova veste, nuovo scheletro del blog'
+summary = 'Abbandono Next.js in favore di Hugo, non il cocktail.'
 +++
 ## Introduzione
 
@@ -12,7 +12,7 @@ In questo periodo dove alcune vulnerabilità PHP (note come PHP2Shell, identific
 
 La curva di apprendimento di Hugo è abbastanza ripida, ma per creare un sito di piccola/media entità penso sia un buon compromesso. Spinto dalla curiosità, ho provato Astro come SSG ma il fatto di basare l'intera codebase su JS o TS non mi garbava.
 
-Il template che ho realizzato non ha dipendenze da librerie CSS o JS, stile plain e js minimal. Ripeto: build and ship fast. Non mi interessa se è brutto, basta che sia utile e facile da gestire.
+Il template che ho realizzato non ha dipendenze da librerie CSS o JS, stile plain e js minimal. Ripeto: build and ship fast. Non mi interessa se è brutto, basta che sia utile e facile da gestire. Il deploy avviene su Vercel, mentre tutta la parte di gestione DNS risiede su CloudFlare.
 
 Ho notato che a volte aggiungere livelli di complessità nel processo, rallenta e inibisce il pensiero creativo: aggiornamenti, gestione dell'autenticazione, plugin per aggiungere anche il più semplice tracking code per Analytics: totalmente inutili. 
 
