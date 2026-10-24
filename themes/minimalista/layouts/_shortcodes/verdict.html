@@ -1,0 +1,12 @@
+{{- /*
+Giudizio finale con voto e riassunto.
+
+@param {string} score Voto, es. "8/10".
+@param {string} summary Riassunto in una frase.
+
+@example: {{< verdict score="8/10" summary="Ottima action cam tascabile, meno adatta a chi cerca la batteria lunga." >}}
+*/}}
+<aside class="verdict">
+  <p class="verdict-score">{{ .Get "score" }}</p>
+  <p>{{ .Get "summary" }}</p>
+</aside>

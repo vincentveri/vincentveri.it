@@ -1,0 +1,18 @@
+{{- /*
+Elenco di pro e contro. Ogni voce è separata da ";".
+
+@param {string} pros Pro, separati da ";".
+@param {string} cons Contro, separati da ";".
+
+@example: {{< pros-cons pros="Stabilizzazione eccellente; Audio pulito" cons="Batteria corta; Prezzo alto" >}}
+*/}}
+<div class="pros-cons">
+  <div>
+    <h3>Pro</h3>
+    <ul>{{ range split (.Get "pros") ";" }}<li>{{ trim . " " }}</li>{{ end }}</ul>
+  </div>
+  <div>
+    <h3>Contro</h3>
+    <ul>{{ range split (.Get "cons") ";" }}<li>{{ trim . " " }}</li>{{ end }}</ul>
+  </div>
+</div>

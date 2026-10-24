@@ -1,0 +1,15 @@
+{{- /*
+Scheda prodotto in cima alla recensione.
+
+@param {string} name Nome del prodotto (obbligatorio).
+@param {string} brand Marchio.
+@param {string} released Anno o data di uscita.
+@param {string} price Prezzo di listino.
+
+@example: {{< product name="Osmo Pocket 3" brand="DJI" released="2023" price="519 €" >}}
+*/}}
+<dl class="product">
+  <dt>Prodotto</dt><dd>{{ .Get "brand" }} {{ .Get "name" }}</dd>
+  {{- with .Get "released" }}<dt>Uscita</dt><dd>{{ . }}</dd>{{ end }}
+  {{- with .Get "price" }}<dt>Prezzo</dt><dd>{{ . }}</dd>{{ end }}
+</dl>

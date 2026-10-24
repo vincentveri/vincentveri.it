@@ -1,0 +1,15 @@
+{{- /*
+Renders a headline, date and summary for a page in a list. The summary is the
+"summary" front matter field if set, otherwise the first paragraph of the content.
+
+@context {page} . The page to summarize.
+*/}}
+<section>
+  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  <p class="meta">{{ partial "date.html" . }}</p>
+  {{- with .Params.summary }}
+    <p>{{ $.RenderString . }}</p>
+  {{- else }}
+    {{- with findRE `(?s)<p>.*?</p>` .Content 1 }}{{ index . 0 | safeHTML }}{{ end }}
+  {{- end }}
+</section>

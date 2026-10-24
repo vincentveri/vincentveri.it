@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    <p class="meta">{{ partial "date.html" . }} · {{ .ReadingTime }} min</p>
+    <div class="body">{{ .Content }}</div>
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </article>
+{{ end }}

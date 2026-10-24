@@ -1,0 +1,8 @@
+baseURL = 'https://vincentveri.com/'
+locale = 'it-it'
+title = 'Vincent Veri'
+theme = 'minimalista'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
