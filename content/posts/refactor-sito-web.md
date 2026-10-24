@@ -1,6 +1,6 @@
 +++
 date = '2026-10-24T17:43:59+02:00'
-draft = true
+draft = false
 title = 'Refactor Sito Web'
 summary = 'Perché ho abbandonato Next.js in favore di Hugo'
 +++
