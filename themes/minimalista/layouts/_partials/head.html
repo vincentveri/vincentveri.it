@@ -11,3 +11,7 @@
 <link rel="manifest" href="/site.webmanifest" />
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
+
+{{- if in (string .Site.BaseURL) "localhost" -}}{{- else -}}
+    {{ template "_internal/google_analytics.html" . }}
+{{- end -}}
