@@ -3,6 +3,9 @@ locale = 'it-it'
 title = 'Vincent Veri'
 theme = 'minimalista'
 
+[params]
+  description = 'Blog personale di Vincent Veri: tech, sport, video e tutto ciò che colpisce la mia attenzione.'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

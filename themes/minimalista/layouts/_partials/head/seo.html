@@ -1,0 +1,69 @@
+{{- /* Description: front matter, then summary, then the auto-generated summary (posts only), then the site default */ -}}
+{{- $desc := .Description | default .Params.summary -}}
+{{- if and (not $desc) .IsPage -}}
+  {{- $desc = .Summary | plainify | truncate 160 -}}
+{{- end -}}
+{{- $desc = replace (default site.Params.description $desc) "\n" " " -}}
+{{- $title := cond .IsHome site.Title .Title -}}
+
+{{- $locale := split site.Language.Locale "-" -}}
+
+{{- /* Image: first image of the page bundle or `images` front matter, else a site-wide fallback */ -}}
+{{- $image := "/web-app-manifest-512x512.png" | absURL -}}
+{{- $cardType := "summary" -}}
+{{- with .Resources.ByType "image" -}}
+  {{- $image = (index . 0).Permalink -}}
+  {{- $cardType = "summary_large_image" -}}
+{{- end -}}
+
+{{- $type := cond .IsPage "article" "website" -}}
+
+<meta name="description" content="{{ $desc }}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:type" content="{{ $type }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:locale" content="{{ printf "%s_%s" (index $locale 0) (upper (index $locale 1)) }}">
+<meta property="og:image" content="{{ $image }}">
+
+{{- if .IsPage }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
+<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">
+{{- range .Params.tags }}
+<meta property="article:tag" content="{{ . }}">
+{{- end }}
+{{- end }}
+
+<meta name="twitter:card" content="{{ $cardType }}">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $image }}">
+
+{{- $ld := dict "@context" "https://schema.org" -}}
+{{- if .IsPage -}}
+  {{- $ld = merge $ld (dict
+        "@type" "BlogPosting"
+        "headline" .Title
+        "description" $desc
+        "url" .Permalink
+        "image" $image
+        "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+        "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+        "inLanguage" site.Language.LanguageCode
+        "author" (dict "@type" "Person" "name" "Vincent Veri" "url" site.BaseURL)
+        "publisher" (dict "@type" "Person" "name" "Vincent Veri")
+  ) -}}
+{{- else -}}
+  {{- $ld = merge $ld (dict
+        "@type" "WebSite"
+        "name" site.Title
+        "description" $desc
+        "url" site.BaseURL
+        "inLanguage" site.Language.LanguageCode
+  ) -}}
+{{- end }}
+<script type="application/ld+json">{{ jsonify $ld | safeJS }}</script>
