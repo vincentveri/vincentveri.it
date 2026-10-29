@@ -4,7 +4,7 @@
   {{- $desc = .Summary | plainify | truncate 160 -}}
 {{- end -}}
 {{- $desc = replace (default site.Params.description $desc) "\n" " " -}}
-{{- $title := cond .IsHome site.Title .Title -}}
+{{- $title := printf "%s | %s" .Title site.Title -}}
 
 {{- $locale := split site.Language.Locale "-" -}}
 

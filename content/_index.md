@@ -1,5 +1,5 @@
 +++
-title = 'Home'
+title = 'Web Developer & Content creator'
 +++
 Benvenuti nella mia fucina virtuale. Scrivo di tech, sport, video e tutto ciò che colpisce la mia attenzione.
 
