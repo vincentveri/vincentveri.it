@@ -1,6 +1,6 @@
 +++
 date = '2026-10-29T16:25:35+01:00'
-draft = true
+draft = false
 title = 'Cassetta degli attrezzi'
 summary = ''
 +++
