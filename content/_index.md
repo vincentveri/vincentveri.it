@@ -1,8 +1,10 @@
 +++
-title = 'Web Developer & Content creator'
+title = 'Web Developer & Content Creator'
 +++
-Benvenuti nella mia fucina virtuale. Scrivo di tech, sport, video e tutto ciò che colpisce la mia attenzione.
+Aiuto le persone a organizzare la propria vita con programmi, script, AI e racconto di tech, sport e tutto ciò che colpisce la mia attenzione attraverso video e foto.
 
-Sviluppatore web c/o Pixelfabrica Lab e presidente dell'ASD Dragonfly Lecce, ho raggiunto il livello 37 di questa quest chiamata vita. Gli energy drink sono il segreto per migliorare le performance. La mia giornata ideale dovrebbe durare 42 ore.
+Sviluppatore Web c/o Pixelfabrica Lab e presidente dell'[ASD Dragonfly Lecce](https://dragonflylecce.it "Vai al sito ufficiale"), ho raggiunto il livello 37 della main quest chiamata vita.
 
-Se volete sapere qualcosa sui miei amici pelosi [cliccate qui](/astro-e-renoir/)
+Allenamento intenso ed energy drink sono il segreto per guadagnare EXP. La mia giornata ideale dovrebbe durare 42 ore.
+
+Se volete conoscere i miei pelosi amici [cliccate qui](/astro-e-renoir/)
