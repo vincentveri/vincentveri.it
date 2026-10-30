@@ -5,6 +5,7 @@
   --muted: light-dark(#6b6b6b, #9a968e);
   --rule: light-dark(#ccc, #3a3836);
   --accent: light-dark(#4d7c0f, #a3e635);
+  --on-accent: light-dark(#fdfcf8, #161514);
   --head: "Playfair Display", Georgia, "Times New Roman", serif;
   --body: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
@@ -107,3 +108,7 @@ main > section + section { border-top: 1px solid var(--rule); }
 .verdict { border-left: 4px solid var(--accent); padding: .25rem 1rem; margin: 2rem 0; }
 .verdict-score { font: 900 2rem/1 var(--head); margin: 0 0 .25rem; color: var(--accent); }
 .verdict p { margin: 0; }
+.cta-box { background: color-mix(in srgb, var(--accent) 12%, transparent); border-radius: 12px; padding: 1.25rem; margin: 2.5rem 0; }
+.cta-box p { margin: 0 0 1rem; }
+.body .cta-button { display: inline-block; padding: .5rem 1.25rem; border-radius: 999px; background: var(--accent); color: var(--on-accent); text-decoration: none; font-weight: 600; }
+.body .cta-button:hover, .body .cta-button:focus-visible { opacity: .85; color: var(--on-accent); }

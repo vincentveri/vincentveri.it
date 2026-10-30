@@ -1,0 +1,13 @@
+{{- /*
+Box evidenziato con un pulsante di invito all'azione.
+
+@param {string} text Testo del box.
+@param {string} link Destinazione del pulsante.
+@param {string} label Testo del pulsante.
+
+@example: {{< cta text="Scopri tutti gli strumenti che uso ogni giorno." link="/uses/" label="Vai alla cassetta degli attrezzi" >}}
+*/}}
+<aside class="cta-box">
+  <p>{{ .Get "text" }}</p>
+  <a class="cta-button" href="{{ .Get "link" }}">{{ .Get "label" }}</a>
+</aside>

@@ -59,3 +59,5 @@ Infine, due cartelle di supporto:
 ## Conclusioni
 
 Una struttura semplice e uguale per tutti i progetti rende il lavoro più prevedibile. Il consiglio principale è questo: scegli una struttura, documentala e rispettala fin dal primo giorno, adattandola solo quando serve davvero.
+
+{{< cta text="Scarica il template e usalo per il tuo prossimo progetto." link="template.zip" label="Scarica il file template.zip completo" >}}
