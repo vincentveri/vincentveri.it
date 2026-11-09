@@ -2,7 +2,7 @@
 date = '2026-11-09T19:57:49+01:00'
 draft = false
 title = '5 motivi per passare a uv come gestore di pacchetti python'
-summary = ''
+summary = 'Tanti strumenti racchiusi in un unico, velocissimo gestore.'
 +++
 
 Fino a qualche settimana fa utilizzavo il classico workflow pyenv, venv e pip per gestire ambienti virtuali con versioni specifiche di python e per gestire i pacchetti.

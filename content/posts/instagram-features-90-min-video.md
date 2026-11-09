@@ -2,7 +2,7 @@
 date = '2026-10-27T11:52:51+01:00'
 draft = false
 title = 'Instagram testa Features: video di 90 minuti per sfidare Youtube'
-summary = ''
+summary = "Meta strizza l'occhio ai creator che lo usano come vetrina. Ma resta il dubbio sulla monetizzazione."
 +++
 
 Da sempre Instagram viene utilizzato da moltissimi creator, podcaster e artisti come vetrina collegata a piattaforme esterne come Youtube, quando è necessario approfondire o dare contenuti extra dedicati che non riescono a rientrare nei tre minuti consigliati da IG.
