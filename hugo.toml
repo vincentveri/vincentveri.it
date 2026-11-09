@@ -13,3 +13,6 @@ theme = 'minimalista'
 [services]
   [services.googleAnalytics]
     id = 'G-3MDRCYSL7Z'
+
+[markup.goldmark.renderer]
+  unsafe = true

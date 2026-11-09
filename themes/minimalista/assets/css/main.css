@@ -112,3 +112,15 @@ main > section + section { border-top: 1px solid var(--rule); }
 .cta-box p { margin: 0 0 1rem; }
 .body .cta-button { display: inline-block; padding: .5rem 1.25rem; border-radius: 999px; background: var(--accent); color: var(--on-accent); text-decoration: none; font-weight: 600; }
 .body .cta-button:hover, .body .cta-button:focus-visible { opacity: .85; color: var(--on-accent); }
+
+/* Inline code highlight: <span class="code-highlight">text</span> */
+.code-highlight, .ch {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: .9em;
+  padding: .1em .35em;
+  border-radius: 4px;
+  background: light-dark(#ece9e1, #2a2826);
+  color: light-dark(#7c2d12, #fbbf24);
+  border: 1px solid light-dark(#d6d2c6, #3a3836);
+  white-space: nowrap;
+}
