@@ -4,4 +4,5 @@
 <ul>
   <li><a href="https://instagram.com/vincentveri" title="Vincent on Instagram">Instagram</a></li>
   <li><a href="https://linkedin.com/vincentveri" title="Vincent on LinkedIn">LinkedIn</a></li>
+  {{ with site.GetPage "/posts" }}{{ with .OutputFormats.Get "rss" }}<li><a href="{{ .Permalink }}" title="Feed RSS">RSS</a></li>{{ end }}{{ end }}
 </ul>

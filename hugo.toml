@@ -16,3 +16,9 @@ theme = 'minimalista'
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[outputs]
+  home = ['html']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
